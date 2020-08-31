@@ -4,6 +4,7 @@ if [ $# -gt 2 ]; then
 	echo "Usage: ./script.sh <domain>" 
 	echo "Example: ./script.sh yahoo.com" 
 	exit 1 
+fi
 if [ ! -d "thirdlevels" ]; then
 	mkdir thirdlevels
 fi
