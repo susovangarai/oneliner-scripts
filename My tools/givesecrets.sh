@@ -1,0 +1,1 @@
+subfinder -d $1 -silent | httpx -silent | xargs -I %% bash -c 'secretfinder -i %% -e -o cli'
