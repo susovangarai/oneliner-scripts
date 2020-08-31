@@ -17,7 +17,7 @@ fi
 pwd=$(pwd) 
 
 echo "Gathering subdomains with Sublist3r..." 
-sublist3r -d $1 -o final.txt 
+sublister -d $1 -o final.txt 
 
 echo $1 >> final.txt 
 
